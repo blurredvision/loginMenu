@@ -32,9 +32,9 @@ namespace Login
         {
             if (textBox1.Text == "admin" && textBox2.Text == "admin")
             {
-            this.Hide();
-            Scheduler s = new Scheduler();
-            s.Show();
+                this.Hide();
+                Scheduler s = new Scheduler();
+                s.Show();
             }
             else if(textBox1.Text == "user" && textBox2.Text == "user")
             {
